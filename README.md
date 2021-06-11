@@ -1,1 +1,1 @@
-# cor-2021-arc-flow-approach-for-single-batch-processing-machine-scheduling
+# Arc-flow approach for single batch-processing machine scheduling
