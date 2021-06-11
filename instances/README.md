@@ -1,4 +1,4 @@
-# Instances
+# DataSet
 
 The parameter setting for this data set are shown in Table 9.
 
