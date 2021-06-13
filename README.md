@@ -26,3 +26,4 @@ COR-2021-Arc-flow-approach-for-single-batch-processing-machine-scheduling/
 | -s         | Name of the file with the size values of the jobs. (default value: size.txt)   |
 | -p         | Name of the file with the processing time values of the tasks. (default value: processing.txt)  |
 | -o         | Name of the target file with AMPL format. (default value: DataArcFlow.dat)     |
+*Mandatory arguments
