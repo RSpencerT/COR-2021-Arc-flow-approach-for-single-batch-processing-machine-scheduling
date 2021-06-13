@@ -12,7 +12,7 @@ To download the accepted manuscript, please go to the personal website: https://
 ### Current project structure
 ```
 COR-2021-Arc-flow-approach-for-single-batch-processing-machine-scheduling/
-├── DataSet/
+├── Dataset/
     ├── ...
 ├── DataArcFlowAMPLgen.py
 ├── LICENSE
