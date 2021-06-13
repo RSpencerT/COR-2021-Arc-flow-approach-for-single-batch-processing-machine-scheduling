@@ -48,9 +48,9 @@ You need the numpy package to run it.
 
 Example:
 ```console
-python DataArcFlowAMPLgen.py -n 10 -b 20
+$ python DataArcFlowAMPLgen.py -n 10 -b 20
 ```
 or
 ```console
-python DataArcFlowAMPLgen.py -n 10 -b 20 -p Dataset/20B/10/processing_p1s1_1.txt -s Dataset/20B/10/size_p1s1_1.txt
+$ python DataArcFlowAMPLgen.py -n 10 -b 20 -p Dataset/20B/10/processing_p1s1_1.txt -s Dataset/20B/10/size_p1s1_1.txt
 ```
