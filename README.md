@@ -9,11 +9,11 @@ Abstract:
 This is the official implementation of the paper.
 To download the accepted manuscript, please go to the personal website: https://www.renan-st.com/publications/cor-2021-arc-flow-approach-for-single-batch-processing-machine-scheduling.
 
-## Project
-
+### Current project structure
+```
 COR-2021-Arc-flow-approach-for-single-batch-processing-machine-scheduling/
-│
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
 ├── setup.py
+```
