@@ -17,8 +17,6 @@ COR-2021-Arc-flow-approach-for-single-batch-processing-machine-scheduling/
 ├── DataArcFlowAMPLgen.py
 ├── LICENSE
 ├── README.md
-├── requirements.txt
-├── setup.py
 ```
 
 ### Arguments for DataArcFlowAMPLgen.py
