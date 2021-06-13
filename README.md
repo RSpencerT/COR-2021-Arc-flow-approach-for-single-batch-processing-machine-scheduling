@@ -24,7 +24,7 @@ COR-2021-Arc-flow-approach-for-single-batch-processing-machine-scheduling/
 ### ArcFlow.mod and ArcFlow.run
 
 These files contain the implementation of the Arc-flow model published in the article, and are encoded in AMPL format.
-To run them, you need a version of AMPL found at: https://ampl.com/
+To run them, you need a version of AMPL found at: https://ampl.com/.
 We use CPLEX to run our tests.
 
 
