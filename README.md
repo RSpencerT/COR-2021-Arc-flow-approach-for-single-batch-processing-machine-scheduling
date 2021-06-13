@@ -31,7 +31,7 @@ We use CPLEX to run our tests.
 ### DataArcFlowAMPLgen.py
 
 This script creates an input file for the AMPL model. 
-It reads the dataset files with the values for processing time and instance size. Then it creates the graph and the necessary parameters for the Arc-flow model.
+It reads the dataset files with the values for processing time and size. Then it creates the graph and the necessary parameters for the Arc-flow model.
 
 You need the numpy package to run it.
 
