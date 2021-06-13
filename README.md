@@ -34,3 +34,7 @@ Example:
 ```
 python DataArcFlowAMPLgen.py -n 10 -b 20
 ```
+or
+```
+python DataArcFlowAMPLgen.py -n 10 -b 20 -p Dataset/20B/10/processing_p1s1_1.txt -s Dataset/20B/10/size_p1s1_1.txt
+```
