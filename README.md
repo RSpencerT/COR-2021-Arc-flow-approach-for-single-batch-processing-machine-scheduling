@@ -29,3 +29,8 @@ COR-2021-Arc-flow-approach-for-single-batch-processing-machine-scheduling/
 | -o         | Name of the target file with AMPL format. (default value: DataArcFlow.dat)                     |
 
 *Mandatory arguments
+
+Example:
+```
+python DataArcFlowAMPLgen.py -n 10 -b 20
+```
