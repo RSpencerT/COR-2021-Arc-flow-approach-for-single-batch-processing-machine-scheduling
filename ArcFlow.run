@@ -1,0 +1,10 @@
+model ArcFlow.mod;
+data DataArcFlow.dat;
+
+option solver cplexamp;
+option cplex_options 'TimeLimit=30 return_mipgap=1 threads=1 mipdisplay=2';
+solve;
+
+printf "\nAmplTime \t Solver Time \t ObjectiveFunction \t Gap \t Status \n";
+printf "%.4f \t%.4f \t%.4f \t%.4f \t%s \n", _ampl_time, _total_solve_elapsed_time, makespan, makespan.relmipgap*100, solve_result;
+printf "%.4f \t%.4f \t%.4f \t%.4f \t%s \n", _ampl_time, _total_solve_elapsed_time, makespan, makespan.relmipgap*100, solve_result >> Results.txt ;
