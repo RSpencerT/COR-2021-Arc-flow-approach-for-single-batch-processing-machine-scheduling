@@ -21,7 +21,21 @@ COR-2021-Arc-flow-approach-for-single-batch-processing-machine-scheduling/
 ├── README.md
 ```
 
-### Arguments for DataArcFlowAMPLgen.py
+### ArcFlow.mod and ArcFlow.run
+
+These files contain the implementation of the Arc-flow model published in the article, and are encoded in AMPL format.
+To run them, you need a version of AMPL found at: https://ampl.com/
+We use CPLEX to run our tests.
+
+
+### DataArcFlowAMPLgen.py
+
+This script creates an input file for the AMPL model. 
+It reads the dataset files with the values for processing time and instance size. Then it creates the graph and the necessary parameters for the Arc-flow model.
+
+You need the numpy package to run it.
+
+###### Arguments
 | Option     | Description                                                                                    |
 | ------     | -----------                                                                                    |
 | -n         | *Number of jobs                                                                                |
